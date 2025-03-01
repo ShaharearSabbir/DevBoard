@@ -1,10 +1,10 @@
 const questions = [
   {
     question: `Question-1: What are the different ways to select an element in the DOM?`,
-    answer: `<h4 class="font-bold">
+    answer: `<h4 class="font-bold mb-2">
   We can use multiple way to select an element. Some ways are given below:
 </h4>
-<ul class="flex flex-col gap-3">
+<ul class="flex flex-col gap-1">
   <li>
     <span class="font-medium">getElementsByTagName: </span> If we want to
     select the elements under same tag name, we can use getElementsByTagName and
@@ -34,7 +34,7 @@ const questions = [
   {
     question: `Question-2: What is the difference between innerHTML, innerText, and textContent ?`,
     answer: `
-    <ul class="flex flex-col gap-3">
+    <ul class="flex flex-col gap-1">
   <li>
     <span class="font-medium">innerHTML: </span>Retrieves everything inside the element, including text, scripts, and HTML tags.
   </li>
