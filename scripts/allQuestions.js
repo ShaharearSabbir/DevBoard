@@ -1,7 +1,7 @@
 const questions = [
   {
     question: `Question-1: What are the different ways to select an element in the DOM?`,
-    answer: `<h4 class="font-bold mb-2">
+    answer: `<h4 class="font-bold mb-1">
   We can use multiple way to select an element. Some ways are given below:
 </h4>
 <ul>
