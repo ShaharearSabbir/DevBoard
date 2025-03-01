@@ -4,7 +4,7 @@ const questions = [
     answer: `<h4 class="font-bold">
   We can use multiple way to select an element. Some ways are given below:
 </h4>
-<ul>
+<ul class="flex flex-col gap-3">
   <li>
     <span class="font-medium">getElementsByTagName: </span> If we want to
     select the elements under same tag name, we can use getElementsByTagName and
@@ -19,12 +19,12 @@ const questions = [
     getElementsByClassName to select all the element under same class name.
   </li>
   <li>
-    <span class="font-medium">querySelectorAll: </span>we can use
-    querySelectorAll to select as we select elements on css. It will give all
+    <span class="font-medium">querySelectorAll: </span>We can use
+    querySelector to select as we select elements on css. It will give all
     the element under spesific css selector.
   </li>
   <li>
-    <span class="font-medium">querySelector: </span> we can use querySelectorAll to select as we select element on css. It will give all the first element under specific css selector.
+    <span class="font-medium">querySelector: </span>We can use querySelectorAll to select as we select element on css. It will give all the first element under specific css selector.
   </li>
 </ul>
 
@@ -36,32 +36,29 @@ const questions = [
     answer: `
     <ul class="flex flex-col gap-3">
   <li>
-    <span class="font-medium">innerHTML: </span> it retrieves everything in the
-    element. Text, scripts and tags etc.
+    <span class="font-medium">innerHTML: </span>Retrieves everything inside the element, including text, scripts, and HTML tags.
   </li>
   <li>
-    <span class="font-medium">innerText: </span> it gives all the displayed text
-    in the element.
+    <span class="font-medium">innerText: </span> Returns only the visible text within the element, ignoring hidden content and scripts.
   </li>
   <li>
-    <span class="font-medium">textContent:</span>it gives all the text in the
-    element including hidden texts and scripts.
+    <span class="font-medium">textContent:</span>Provides all text inside the element, including hidden text but excluding HTML tags.
   </li>
 </ul>
     `,
   },
   {
     question: `Question-3: What is event delegation in the DOM?`,
-    answer: `<p>Event Delegation is a pattern of handling event bubble. Using event delegation we can handle how event bubble will act</p>`,
+    answer: `<p>Event Delegation is a pattern of handling event bubble. Using event delegation we can handle how event bubble will act.</p>`,
   },
   {
     question: `Question-4: What is event bubbling in the DOM?`,
-    answer: `Event Bubbling is the way events are handled on Javascript. after the event target action is done the event goes to document element from the target element touching every parent element like a bubble and this process is called event bubbling`,
+    answer: `Event Bubbling is the way events are handled on Javascript. After the event target action is done the event goes to document element from the target element touching every parent element like a bubble and this process is called event bubbling.`,
   },
   {
     question: `Question-5: How do you create, add, and remove elements using JavaScript?`,
     answer: `
-    createElement method is used to create an element on javascript. we can use append and appendChild method to add a element in particular parent element. we can target the parent of that element we wanna delete and set and empty string as a value if the parent elements InnerHTML
+    createElement method is used to create an element on javascript. we can use append and appendChild method to add a element in particular parent element. we can target the parent of that element we wanna delete and set and empty string as a value if the parent elements InnerHTML.
     `,
   },
 ];
