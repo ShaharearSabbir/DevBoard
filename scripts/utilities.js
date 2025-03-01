@@ -12,7 +12,14 @@ function getDate() {
     year: "numeric",
   };
   const dateOnformat = date.toLocaleDateString("en-US", format);
-  dateToday.innerText = dateOnformat;
+  const dateArray = dateOnformat.split("");
+  for (let i = 0; i < dateArray.length; i++) {
+    if (dateArray[i] === ",") {
+      dateArray.splice(i, 1);
+    }
+  }
+  const convertedDate = dateArray.join("");
+  dateToday.innerText = convertedDate;
 }
 
 getDate();
