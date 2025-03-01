@@ -62,13 +62,13 @@ function getTimeNow() {
 function addQuestion(question, answer) {
   const article = document.createElement("article");
   article.innerHTML = `
-  <div class="bg-white rounded-3xl mt-6 hover:shadow-lg p-6">
+  <div class="bg-white rounded-3xl hover:shadow-lg p-6">
   <h3 class="text-3xl font-bold">
-    ${question}
+    ${question} </h3>
   <hr class="border-1 border-blue-100 border-dashed my-6" />
-  <p class="text-lg opacity-80">
+  <div>
     ${answer}
-  </p>
+  </div>
 </div>
   `;
   const questionContainer = document.getElementById("question-container");
@@ -76,5 +76,5 @@ function addQuestion(question, answer) {
 }
 
 document.getElementById("discover").addEventListener("click", function () {
-  window.location.href = "questions.html";
+  window.location.href = "blog.html";
 });

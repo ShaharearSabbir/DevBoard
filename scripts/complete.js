@@ -5,6 +5,9 @@ for (const section of sections) {
   button.addEventListener("click", function () {
     alert("Board Updated Successfully");
     const pandingTask = getInnerTextByIdInNum("panding-task-counter");
+    if (pandingTask === 1) {
+      alert("Congrats!! You have completed all the current task");
+    }
     const updatedPanding = pandingTask - 1;
     document.getElementById("panding-task-counter").innerText = updatedPanding;
 
