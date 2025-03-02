@@ -41,3 +41,5 @@ and ensure onClick works properly`,
     date: "21 March 2025",
   },
 ];
+
+document.getElementById("panding-task-counter").innerHTML = tasks.length;

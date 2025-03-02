@@ -2,7 +2,7 @@ const questions = [
   {
     question: `Question-1: What are the different ways to select an element in the DOM?`,
     answer: `<h4 class="font-bold mb-2">
-  We can use multiple way to select an element. Some ways are given below:
+  We can use multiple way to select an element. Such as:
 </h4>
 <ul>
   <li>
@@ -57,7 +57,7 @@ const questions = [
   {
     question: `Question-5: How do you create, add, and remove elements using JavaScript?`,
     answer: `
-    createElement method is used to create an element on javascript. we can use append and appendChild method to add a element in particular parent element. we can target the parent of that element we wanna delete and set and empty string as a value if the parent elements InnerHTML.
+    createElement method is used to create an element on javascript. We can use append and appendChild method to add a element in particular parent element. We can target the parent of that element we wanna delete and set and empty string as a value if the parent elements InnerHTML.
     `,
   },
 ];
